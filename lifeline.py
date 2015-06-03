@@ -11,11 +11,11 @@ NOTE: Relies on npm for node, gem for Ruby, and pip for Python
 
 
 Usage:
-  python lifeline.py (list)
-  python lifeline.py [FRAMEWORK...] [--preview]
-  python lifeline.py (-h | --help)
-  python lifeline.py --clean
-  python lifeline.py --version
+  lifeline.py (list)
+  lifeline.py [FRAMEWORK...] [--preview]
+  lifeline.py (-h | --help)
+  lifeline.py --clean
+  lifeline.py --version
 
 Options:
   -h --help     Show this screen.
@@ -33,7 +33,7 @@ from subprocess import Popen
 __version__ = '0.0.1'
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 _LIFELINE_DIR_ = os.path.abspath(os.path.join(expanduser('~'), '.lifeline'))
-_FRAMEWORKS_DIR = 'packages'
+_FRAMEWORKS_DIR = 'frameworks'
 
 INSTALL_COMMANDS = {
     'node': 'npm',
