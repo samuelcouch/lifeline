@@ -3,12 +3,11 @@
 When you know you'll be without your favorite package managers -- call lifeline.
 
 ## Usage
-Before leaving for a roadtrip, make sure to call `lifeline install <<framework>>`
+Before leaving for a roadtrip, make sure to call `lifeline [FRAMEWORK...]` to download a local copy of your favorite packages.
 
-Available frameworks:
+To see what will be downloaded beforehand pass it the `--preview` for a list of packages that will be downloaded locally.
 
-1. `node` (Uses `npm`)
-1. `python` (Uses `pip`)
-1. `ruby` (Uses RubyGems `gems`)
+`lifeline list` will output a list of supported frameworks and languages.
 
-To see what will be downloaded beforehand pass it the `--peek` for a list of packages that will be downloaded locally.
+## Contributing
+See something missing? Submit a pull request!
