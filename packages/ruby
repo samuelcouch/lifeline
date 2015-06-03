@@ -1,0 +1,9 @@
+rails
+activerecord
+nokogiri
+devise
+mongoid
+redis
+compass
+sinatra
+httparty

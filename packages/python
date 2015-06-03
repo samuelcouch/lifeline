@@ -1,2 +1,5 @@
-pip
-django
+redis
+tweepy
+twilio
+funcy
+peewee
